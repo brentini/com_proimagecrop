@@ -1,0 +1,33 @@
+/* toolbar */
+.icon-48-crop {
+	background: url(../images/toolbar/crop.png) no-repeat left;
+}
+
+.icon-48-formats, .icon-48-format {
+	background: url(../images/toolbar/format.png) no-repeat left;
+}
+
+/* crop image */
+.marginlist input, .marginlist select {
+	float: none;
+	clear:both;
+    margin:  0;
+    width: auto;
+}
+
+.plugin_label {
+	width:150px; 
+	float:left; 
+	font-weight:bold;
+}
+
+/**/
+#format-selection-free {
+	display:inline;
+}
+
+/* edit */
+.adminform span.title, .adminform span.divisor {
+	float: left;
+	padding: 6px 5px 0 0;
+}

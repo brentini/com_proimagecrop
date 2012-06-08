@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset name="component" label="COM_PROIMAGECROP_COMPONENT_SETTINGS" description="COM_PROIMAGECROP_COMPONENT_SETTINGS_DESC">
+        <field name="resizeComponent" type="radio" label="COM_PROIMAGECROP_RESIZE_COMPONENT" description="COM_PROIMAGECROP_RESIZE_COMPONENT_DESC" default="0">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+        <field name="maxWidthComponent" type="text" label="COM_PROIMAGECROP_MAX_WIDTH_COMPONENT" description="COM_PROIMAGECROP_MAX_WIDTH_COMPONENT_DESC" size="40" required="false" default="800" />
+        <field name="cropPath" type="text" label="COM_PROIMAGECROP_CROPPATH" description="COM_PROIMAGECROP_CROPPATH_DESC" size="40" required="false" default="images" />
+    </fieldset>
+    <fieldset name="plugin" label="COM_PROIMAGECROP_PLUGIN_SETTINGS" description="COM_PROIMAGECROP_PLUGIN_SETTINGS_DESC">
+        <field name="resizePlugin" type="radio" label="COM_PROIMAGECROP_RESIZE_PLUGIN" description="COM_PROIMAGECROP_RESIZE_PLUGIN_DESC" default="0">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+        <field name="maxWidthPlugin" type="text" label="COM_PROIMAGECROP_MAX_WIDTH_PLUGIN" description="COM_PROIMAGECROP_MAX_WIDTH_PLUGIN_DESC" size="40" required="false" default="800" />
+    </fieldset>
+	<fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC">
+		<field name="rules" type="rules" label="JCONFIG_PERMISSIONS_LABEL" class="inputbox" filter="rules" validate="rules" component="com_proimagecrop" section="component" />
+	</fieldset>
+</config>
