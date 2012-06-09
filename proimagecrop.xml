@@ -50,4 +50,7 @@
 			<language tag="pt-BR">language/pt-BR.com_proimagecrop.sys.ini</language>
 		</languages>
 	</administration>
+	<plugins>
+		<plugin folder="plugins" plugin="plg_proimagecrop" group="editors-xtd" />
+	</plugins>
 </extension>
